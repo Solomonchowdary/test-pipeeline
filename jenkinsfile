@@ -83,7 +83,7 @@ pipeline {
 
     stage('Push Image to dockerHUb') {
       steps {
-        sh 'docker push solomonchowdary/spring-boot-sample-app:latest'
+        sh 'docker push solomon/spring-boot-sample-app:latest'
       }
       post {
         always {
