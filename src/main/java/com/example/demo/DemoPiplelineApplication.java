@@ -8,6 +8,7 @@ public class DemoPiplelineApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoPiplelineApplication.class, args);
+		//testng merge via pull request
 	}
 
 }
